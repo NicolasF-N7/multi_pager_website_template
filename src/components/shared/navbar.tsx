@@ -31,14 +31,9 @@ function Navbar({ currentPage, businessInfo, navigationInfo } : {currentPage: st
                   ? "opacity-100"
                   : "opacity-40 hover:opacity-100 transition-opacity"
               }`}>
-              <ScrollLink 
-                to={menuRoute}
-                smooth={true}
-                offset={-10} 
-                duration={200}
-                className="cursor-pointer">
-                  {menu}
-              </ScrollLink>
+                <Link href={menuRoute}>
+                {menu}
+                </Link>
             </li>
           );
         })}

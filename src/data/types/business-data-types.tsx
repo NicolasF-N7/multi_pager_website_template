@@ -108,10 +108,6 @@ export type FooterSection = Record<string, never>;
 
 export type GallerySection = {
   title: string;
-};
-
-export type MenuSection = {
-  title: string;
   call_to_action: CallToAction;
 };
 

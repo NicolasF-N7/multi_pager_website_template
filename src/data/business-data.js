@@ -22,7 +22,7 @@ export const business_data = {
                 "Accueil",
                 "Menu",
                 "Horaires",
-                "Accès"
+                "Contact"
             ]
         },
         "sections": {
@@ -31,7 +31,7 @@ export const business_data = {
                 "subtitle": "Découvrez un savoir-faire décénal.",
                 "call_to_action": {
                     "text": "Découvrir le menu",
-                    "target_link": "https://www.thong-minh-market.fr/"
+                    "target_link": "/menu"
                 },
                 "info": [
                     {
@@ -62,13 +62,10 @@ export const business_data = {
                 "lastParagraph": "Venez goûter le gout de l'authentique"
             },
             "gallery": {
-                "title": "Découvrez nos meilleurs plats"
-            },
-            "menu": {
-                "title": "Découvrez notre menu",
+                "title": "Découvrez nos meilleurs plats",
                 "call_to_action": {
                     "text": "Menu",
-                    "target_link": "menu/menu.pdf"
+                    "target_link": "/menu"
                 },
             },
             "menu_img": {
