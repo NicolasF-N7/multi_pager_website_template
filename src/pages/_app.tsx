@@ -5,15 +5,15 @@ import { useRouter } from 'next/router';
 import {business_data} from "@/data/business-data"
 
 export default function App({ Component, pageProps }: AppProps) {
-  const router = useRouter();
+  // const router = useRouter();
 
-  const allowedRoutesSet = new Set(business_data.website_content.navigation.menus.map(route => '/' + route.toLowerCase()));
+  // const allowedRoutesSet = new Set(business_data.website_content.navigation.menus.map(route => '/' + route.toLowerCase()));
 
-  useEffect(() => {
-    if (!allowedRoutesSet.has(router.pathname)) {
-      router.push('/accueil');
-    }
-  }, [router.pathname]);
+  // useEffect(() => {
+  //   if (!allowedRoutesSet.has(router.pathname)) {
+  //     router.push('/accueil');
+  //   }
+  // }, [router.pathname]);
 
   return <Component {...pageProps} />;
 }
