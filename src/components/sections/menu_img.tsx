@@ -40,9 +40,9 @@ const MenuImg = ({ content } : {content: MenuImgSection}) => (
                       {/* First col */}
                       <div className='w-1/2 text-left mx-2'>
 
-                        {dish.name && <p className='text-l font-bold mb-2'>{dish.name}</p>}
+                        {dish.name && <p className='text-xl font-bold mb-2'>{dish.name}</p>}
                         {dish.description && <p className='text-md'>{dish.description}</p>}
-                        {dish.price && <p className='text-md font-bold text-deepPumpkin'>{dish.price} €</p>}
+                        {dish.price && <p className='text-xl font-bold text-deepPumpkin'>{dish.price} €</p>}
                       </div>
                       
 

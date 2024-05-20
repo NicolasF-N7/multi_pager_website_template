@@ -27,7 +27,7 @@ const ExpandableSection = ({title, children}: {title: string, children: JSX.Elem
             
             <button onClick={toggleExpand} className="w-full p-2">
               <div className="flex">
-              <h2 className="flex-1 items-center text-xl font-bold">{title}</h2>
+              <h2 className="flex-1 items-center text-2xl font-bold">{title}</h2>
 
                 <motion.div
                   initial={false}
